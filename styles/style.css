@@ -684,25 +684,20 @@ address {
     background-color: #FFFFFF1A;
     border-radius: 50%;
     color: #AFB1B8;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1), background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
-    transition-property: color;
-    transition-duration: 250ms;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .our-team-icon-instagram {
     height: 20px;
     width: 20px;
     fill: currentColor;
-
-    transition-property: color;
-    transition-duration: 250ms;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .our-team-icon-instagram:hover,
 .our-team-icon-instagram:focus {
     fill: #fff;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1), background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .our-team-icon-twitter {
@@ -748,10 +743,7 @@ address {
     border-radius: 4px;
     width: 170px;
     height: 92px;
-
-    transition-property: color;
-    transition-duration: 250ms;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1), border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .clients-icon-link:hover,
@@ -759,7 +751,9 @@ address {
     border: 1px solid #AFB1B8;
     border-radius: 4px;
     border-color: #2196f3;
-    color: #2196f3
+    color: #2196f3;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1), border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
 }
 
 .clients-icon-logo {
